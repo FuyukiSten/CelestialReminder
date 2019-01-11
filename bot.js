@@ -12,7 +12,7 @@ client.on('ready', () => {
         embed.addField('**Ro-Ghoul Dicas:**', `${dicasarray[Math.floor(Math.random()*dicasarray.length)]}`);
         embed.setColor(0x36393f);
         c.send(embed);
-    }, 1 * 600000); 
+    }, 1 * 2400000); 
 });
 
 client.login(process.env.TOKEN);
